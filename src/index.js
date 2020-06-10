@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Gate from "./Gate";
 import * as serviceWorker from './serviceWorker';
+import Room from "./Room";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Gate isOpen={false}/>
+    <Room/>
   </React.StrictMode>,
   document.getElementById('root')
 );
